@@ -6,10 +6,10 @@ public class Hello {
         //call the sayHello method
         sayHello();
         sayGoodbye();
-
+        sayGoodMorning();
 
     }
-
+    // create a method
     public static void sayHello() {
         System.out.println("Hello World");
     }
@@ -18,6 +18,8 @@ public class Hello {
     public static void sayGoodbye() {
         System.out.println("Goodbye");
     }
-
+    public static void sayGoodMorning() {
+        System.out.println("GoodMorning");
+    }
 
 }
